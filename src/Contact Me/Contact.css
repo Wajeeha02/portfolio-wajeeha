@@ -1,0 +1,44 @@
+.contact-me{
+    margin-top: 4rem;
+    font-family: 'Poppins',sans-serif;
+}
+.contact-heading h1{
+    font-weight: bold;
+    text-align: center;
+}
+.line p{
+    width: 4rem;
+    border-bottom: 6px solid  #ffb703;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.contact-heading p{
+    text-align: center;
+}
+.form{
+    margin: 0 auto;/* Center the form horizontally */
+    margin-top: 2rem;
+    display: flex;
+    flex-direction:column ;
+   background-color: #F8F8F8;
+   height: 400px;
+   width: 400px;
+   box-shadow: 0 4px 20px #F8F8F8; ;
+   padding: 2rem;
+   line-height: 2rem;
+   margin-bottom: 4rem;
+}
+.form input,.form button,.form textarea,.text{
+    width: 90%;
+    padding: 0.5rem;
+    border: 1px solid #023047;
+    border-radius: 0.3rem;
+}
+.send{
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: #023047;
+    color: #ffb703;
+}

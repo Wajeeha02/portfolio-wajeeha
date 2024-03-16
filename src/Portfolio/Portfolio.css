@@ -1,0 +1,76 @@
+/* styles.css */
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.portfolio-heading h1{
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: 'Poppins',sans-serif;
+}
+.portfolio-heading h3{
+  text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 3rem;
+}
+.portfolio-heading h2{
+    color:  #FFB703;
+    border-bottom: 6px solid  #FFB703;
+    width: 10%;
+    border-radius: 1rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.project-card {
+  flex: 0 1 calc(33.33% - 5rem);
+   background-color:#F5F5F5 ;
+    box-shadow: 0 4px 20px  #dddada ;
+    height: 450px;
+    width: 250px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 6rem;
+    overflow: hidden;
+  }
+  .project-card img {
+   max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+   max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+   object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+   border-radius: 8px; /* Ensure rounded corners match container */
+  }
+  
+  .project-card h2 {
+    margin-bottom: 10px;
+  }
+  .project-card h3{
+    line-height: 1.5;
+  }
+  .project-card p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .project-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+ 
+  @media screen and (max-width:768px){
+    .cards{
+      flex-direction: column;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+    }
+  }
