@@ -47,7 +47,7 @@ function Footer() {
             <Link to="/Portfolio">My Projects</Link>
           </li>
           <li>
-            <Link to="/Contact Me">Contact Me</Link>
+            <Link to="/ContactMe">Contact Me</Link>
           </li>
         </ul>
         <div className="copyright">
