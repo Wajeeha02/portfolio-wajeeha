@@ -12,7 +12,7 @@ function Footer() {
         </h1>
         <h2>DROP ME A MESSAGE!</h2>
         <button className="contact">
-          <Link to="/Contact Me">Contact Me</Link>
+          <Link to="/ContactMe">Contact Me</Link>
         </button>
         <div className="icons">
           <a
