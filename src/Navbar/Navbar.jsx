@@ -18,7 +18,7 @@ function Navbar() {
             <div className='nav-links'>
                 <button className='toggle-btn' onClick={toggleNavbar}>X</button>
                 <ul className={`${isOpen ? '' : 'show'}`}>
-                    <li><Link to='/Home'>Home</Link></li>
+                    <li><Link to='/'>Home</Link></li>
                     <li><Link to='/AboutMe'>About Me</Link></li>
                     <li><Link to='/Portfolio'>My Projects</Link></li>
                     <li><Link to='/Contact Me'>Contact Me</Link></li>

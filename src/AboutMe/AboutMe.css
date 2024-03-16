@@ -172,10 +172,10 @@
   .about3-picture img,
   .about4-picture img,
   .about5-picture img {
-    margin: 0rem;
-    margin-top: 1rem;
-    margin-left: 7rem;
-    width: 250px; /* Adjust the width as needed */
+    margin: 0 auto;
+    width: 60%; /* Adjust the width as needed */
+    display: block;
+    margin-top: 3rem;
   }
  
 
@@ -197,14 +197,14 @@
   .about4,
   .about5 {
     flex-direction: column;
-    height: 750px;
+    height: 800px;
   }
   .about2,.about4{
-    height:550px;
+    height:700px;
     flex-direction: column-reverse;
   }
   .about3,.about5{
-    height:550px;
+    height:700px;
   }
   .connect p{
     max-width: 60%;

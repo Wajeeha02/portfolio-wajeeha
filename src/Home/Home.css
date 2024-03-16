@@ -65,8 +65,7 @@
   flex-grow: 1;
 }
 .about-picture img {
-  margin: 4rem;
-  width: 350px;
+  width: 40%;
   background-color: #d9d2bf;
   box-shadow: 0 4px 10px rgb(185, 185, 185);
 }
@@ -201,6 +200,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .about-picture img {
+    margin: 0 auto;
+  }
   .project-cards {
     
     flex-direction: column;
@@ -223,9 +225,11 @@
     height: 800px;
   }
   .services {
+  
     flex-direction: column;
   }
   .left-services {
+    margin-top: 3rem;
     max-width: 90%;
     text-align: justify;
   }
@@ -235,14 +239,17 @@
   }
   .right-services{
     margin-left: 0;
-    width: 400px;
+    width: 250px;
     height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5rem;
   }
   .graphic-designing,
   .web-development {
-    margin-left: 1rem;
-    width: 450px;
-    height: 250px;
+    margin-bottom: 1rem;
+    width: 250px;
+    height: 300px;
     padding: 1rem;
   }
 }
