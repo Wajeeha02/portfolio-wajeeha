@@ -12,7 +12,7 @@ function Footer() {
         </h1>
         <h2>DROP ME A MESSAGE!</h2>
         <button className="contact">
-          <Link to="/ContactMe">Contact Me</Link>
+          <Link to="/Contact">Contact Me</Link>
         </button>
         <div className="icons">
           <a
@@ -47,7 +47,7 @@ function Footer() {
             <Link to="/Portfolio">My Projects</Link>
           </li>
           <li>
-            <Link to="/ContactMe">Contact Me</Link>
+            <Link to="/Contact">Contact Me</Link>
           </li>
         </ul>
         <div className="copyright">

@@ -3,7 +3,7 @@ import Footer from './Footer/Footer.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './Home/Home.jsx';
-import Contact from './Contact Me/Contact.jsx';
+import Contact from './Contact/Contact.jsx';
 import AboutMe from './AboutMe/AboutMe.jsx';
 import PortfolioPage from './Portfolio/PortfolioPage.jsx';
 
@@ -16,7 +16,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/AboutMe' element={<AboutMe/>} />
           <Route path='/Portfolio' element={<PortfolioPage/>} />
-          <Route path='/ContactMe' element={<Contact/>} />
+          <Route path='/Contact' element={<Contact/>} />
          
         </Routes>
         <Footer /> 
