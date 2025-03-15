@@ -1,7 +1,7 @@
-import React from "react";
-import "./Footer.css";
-import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.css";
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -51,7 +51,7 @@ function Footer() {
           </li>
         </ul>
         <div className="copyright">
-        <p>&copy; 2024 Copyright. All rights reserved</p>
+        <p>&copy; 2025 Copyright. All rights reserved</p>
        </div>
         </div>
        

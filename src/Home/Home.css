@@ -13,18 +13,23 @@
 }
 .landing-page {
   background-color: #fcfcfc;
-  height: 550px;
-}
-.skills {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.main-heading{
   padding: 5rem;
+}
+
+.main-intro{
+  padding-top:2rem;
 }
 .graphics {
   flex-grow: 4;
 }
 .coder {
+  padding-top: 4rem;
   flex-grow: 1;
 }
 .graphics h1,
@@ -66,8 +71,10 @@
 }
 .about-picture img {
   width: 40%;
+  border-radius: 50%;
   background-color: #d9d2bf;
-  box-shadow: 0 4px 10px rgb(185, 185, 185);
+  border-color: #023047;
+  box-shadow: 0 10px 20px rgb(185, 185, 185);
 }
 .about-content {
   margin: 5rem;
@@ -121,8 +128,13 @@
   width: 20%;
   border-radius: 3rem;
 }
-.left-services {
-  max-width: 40%;
+.left-services{
+  max-width: 60%;
+}
+.left-services h1{
+  max-width: 30%;
+  border-bottom: 4px solid #ffb703;
+  margin-bottom: 2rem;
 }
 .right-services {
   display: flex;
@@ -132,7 +144,7 @@
 .graphic-designing,
 .web-development {
   margin-left: 1rem;
-  width: 300px;
+  width: 400px;
   height: 200px;
   box-shadow: 0 4px 10px#e6e3e3;
   border-radius: 1rem;
@@ -140,6 +152,7 @@
 }
 .graphic-designing h1,
 .web-development h1 {
+  margin-bottom: 1rem;
   font-size: 1.3rem;
   font-weight: bolder;
 }
@@ -183,7 +196,7 @@
   font-weight: bold;
   font-size: 1.4rem;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .see-all-btn {
   display: block; /* Change to block to make it center */
